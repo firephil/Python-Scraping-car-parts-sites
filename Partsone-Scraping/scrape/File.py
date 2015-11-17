@@ -13,7 +13,7 @@ def rename_files(path, badprefix):
             os.rename(fname, tmp)
             count += 1
             # print("Renamed: " + fname + " --> "+tmp)
-    print("Renamed: " + str(count) + " files")
+    print("Renamed: %s files" % count)
 
 
 def list_files(directory):
