@@ -1,0 +1,2 @@
+http://stackoverflow.com/questions/12434863/executing-a-batch-script-on-windows-shutdown
+http://www.psychopy.org/wiki/home.php/Snippets/ResizeImages
