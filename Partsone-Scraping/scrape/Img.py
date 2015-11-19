@@ -32,7 +32,6 @@ def resize(folder, file_name, max_dim):
     x = width = img.size[0]
     y = height = img.size[1]
 
-
     if x < max_dim and y < max_dim :
         # print("Resize not necessary for : " + file_name + " x = " + str(x) + " y = " + str(y))
         return
@@ -41,7 +40,6 @@ def resize(folder, file_name, max_dim):
         ratio = (max_dim / float(x))
         width = max_dim
         height = int((float(y) * float(ratio)))
-
 
     if height > max_dim:
         ratio = (max_dim / float(y))

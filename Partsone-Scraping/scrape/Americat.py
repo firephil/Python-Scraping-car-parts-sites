@@ -8,7 +8,6 @@ r = requests.get(url)
 soup = BeautifulSoup(r.content, "html.parser")
 
 
-
 def download_page(url):
     request = requests.get(url)
     parser = BeautifulSoup(request.content,"html.parser")
