@@ -9,7 +9,8 @@ if __name__ == '__main__':
 
     # Img.resize_all("C:\\Users\\PARTSONE\\Desktop\\AUDI", 600)
 
-    url = "http://megapart.gr"
+    url = "http://megapart.gr/test"
     ls = Scrape.get_image_links(url)
-    Scrape.download_files(url)
-    #print(ls)
+    Scrape.download_files(ls)
+    print(ls)
+    # Scrape.download_file(url)
