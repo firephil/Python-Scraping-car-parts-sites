@@ -13,3 +13,4 @@ def write_csv():
             writer.writerow( (i, i+2, i*2))
     finally:
         csvFile.close()
+        csvFile.close()
