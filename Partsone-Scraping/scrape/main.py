@@ -41,5 +41,11 @@ if __name__ == '__main__':
         "http://www.partsone.gr/media/catalog/product/C/S/CSL15W401.jpg",
         "http://www.partsone.gr/media/catalog/product/C/S/CSL20W501.jpg"]
 
-    Scrape.download_files(list)
-    #print(list)
+    # Scrape.download_files(list)
+    # print(list)
+    # url = "http://www.autotires.gr/motoroil/castrol.html?limit=1000"
+    # Scrape.download_page(url)
+
+    import Castrol
+
+    Castrol.get_price_local("new_page.html")
